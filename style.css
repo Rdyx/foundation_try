@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: rgb(75,75,75);
+}
+
+.photos{
+	height: 20em;
+	border: 1px solid black;
+}
+.topLeftPadded{
+	padding: 5px 0px 0px 10px;
+}
+
+.topRightPadded, a, a:hover{
+	color:black;
+}
+
+.topRightPadded li:hover{
+	border-bottom: 2px solid black;
+	margin-top: -2px;
+}
+
+.bord{
+	border: 1px solid rgb(220,220,220);
+	border-radius: 5px;
+	box-shadow: 0px 2px 1px rgb(240,240,240);
+}
+
+.bordLeft{
+	border-left: 1px solid rgb(220,220,220);
+}
+
+.noBorderInput, .noBorderInput:focus, .noBorderInput::-webkit-input-placeholder{
+	margin: 0.5em 0em 0.1em 0.35em;
+	width: 11em;
+	height: auto;
+	border: none;
+	box-shadow: none;
+	color: rgb(130,130,130);
+	font-size: 19px;
+}
+
+.titreTable{
+	margin: 1em 0em -0.5em 0.9em;
+	font-size: 16px;
+}
+.airbnb{
+	color: rgb(255,100,100);
+	font-weight: 900;
+}
+
+.textbnbTab {
+	margin-top: -10px;
+}
+
+.topMarg
+{
+	margin-top: 4em;
+}
+
+.searchButton, .searchButton:hover {
+	background-color: rgb(255,100,100);
+	border-radius: 5px;
+	font-size: 16px;
+	width: 7.2em;
+	height: 3em;
+	margin: 1em 0em -3em -2em;
+}
+
+.bordDown{
+	border-bottom: 1px solid rgb(220,220,220);
+}
+
+.downBar li{
+	margin: 0 1em 0 0;
+}
+.activ{
+	height: 2.5em;
+	color: blue;
+	border-bottom: 2px solid blue;
+}
+
+.borderedInput{
+	margin: 0.5em 0em 0.1em 0.35em;
+	width: 15em;
+	height: auto;
+	border: 1px solid rgb(220,220,220);
+	border-radius: 2px;
+	color: rgb(130,130,130);
+	font-size: 19px;
+}
+
+.downBorder{
+	width: 100%;
+	margin: 2em 0em 3em 0em;
+	border-top: 1px solid rgb(220,220,220);
+}
